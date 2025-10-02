@@ -60,7 +60,7 @@ These tables are related by shipment date fields for context-aware analysis.
 
 ## Dashboard Images 
 
-![image alt][(images/dashboard1.jpg)  ](https://github.com/SatyaGanesh07/Awesome-Choco-Sales-Analytics./blob/b5b5bb43c272873b3869081fb1af7d1ec4207527/Images/dashboard%202.png)
+![image alt](https://github.com/SatyaGanesh07/Awesome-Choco-Sales-Analytics./blob/b5b5bb43c272873b3869081fb1af7d1ec4207527/Images/dashboard%202.png)
 *High-level sales and overall performance summary*
 
 ![image alt](images/dashboard-2.jpg)  
