@@ -1,4 +1,4 @@
-# 🚢 Shipment & Sales Analytics Dashboard
+# 🚢  Awesome Chocolate - Shipment & Sales Analytics Dashboard
 
 **Advanced Power BI Solution with Dynamic DAX Calculations**
 
