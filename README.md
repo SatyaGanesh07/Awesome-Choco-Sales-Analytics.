@@ -60,11 +60,12 @@ These tables are related by shipment date fields for context-aware analysis.
 
 ## Dashboard Images 
 
-![Sales Dashboard Overview](images/dashboard1.jpg)
+![Sales Dashboard Overview](images/dashboard1.jpg)  
 *High-level sales and overall performance summary*
 
-![Product Performance Dashboard](images/dashboard-2.jpg)
+![Product Performance Dashboard](images/dashboard-2.jpg)  
 *Detailed insight into product-wise sales, profit, and shipment quality*
+
 
 
 ***
