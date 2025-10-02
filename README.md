@@ -1,12 +1,10 @@
-# 🚢  Awesome Chocolate - Shipment & Sales Analytics Dashboard
+🚢 Awesome Chocolate Shipment & Sales Analytics Dashboard
+A Powerful Power BI Solution Built to Drive Data-Driven Decisions
 
-**Advanced Power BI Solution with Dynamic DAX Calculations**
+About This Project
+Working on the Awesome Chocolate shipment and sales dashboard gave me the opportunity to combine strong data modeling skills with business insight. The goal? To equip the supply chain and sales teams with clear, timely, and actionable intelligence that helps them optimize performance and increase profitability.
 
-***
-
-## Overview
-
-This Power BI dashboard empowers logistics and operations teams with deep insights into shipment performance, sales trends, cost efficiency, and profit optimization. It leverages advanced DAX measures for dynamic analysis, enabling users to track KPIs with precision and instantly surface business-critical trends.
+With thoughtfully designed DAX measures and an intuitive data model, this dashboard makes complex logistics and financial data easy to understand, fast to analyze, and simple to act upon.
 
 ***
 
