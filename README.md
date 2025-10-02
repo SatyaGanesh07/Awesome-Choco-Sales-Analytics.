@@ -142,14 +142,13 @@ RETURN DIVIDE(this_month_sales - prev_month_sales, prev_month_sales)
 
 ***
 
-## Final Thoughts
+## Final Words
 
-The **Awesome Chocolate** Shipment & Sales Analytics Dashboard exemplifies technical excellence with business-focused insights, ready to drive success in chocolate supply chain management through data empowerment.
+This project reflects a combination of analytical rigor and business savvy. It demonstrates my ability to translate complex data into clear, high-value insights and to deliver tools that support real-world business success.
+
+I'm excited to bring these skills and this mindset into my next role — driving impactful data solutions that empower effective decision-making.
 
 ***
 
 **Delivering transformative analytics that ensure every chocolate shipment drives profitability and growth.**
 
-***
-
-If desired, screenshots can be provided or placeholders updated with your actual visuals. Would you like help formatting the screenshots or any other particular section in more detail?
