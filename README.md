@@ -1,6 +1,3 @@
-Here is the enhanced README including the requested sections: Dashboard Screenshots, Dashboard Features, Dataset Description, Methodology, Problem Statement, and Objective. The project name "Awesome Chocolate" is retained for a personalized, professional touch.
-
-***
 
 # 🚢 Awesome Chocolate - Shipment & Sales Analytics Dashboard
 
@@ -8,9 +5,11 @@ Here is the enhanced README including the requested sections: Dashboard Screensh
 
 ***
 
-## Overview
+## About This Project
 
-The **Awesome Chocolate** Power BI dashboard delivers comprehensive insights into shipment performance, sales trends, cost efficiency, and profit optimization. This solution uses advanced DAX measures and dynamic date intelligence to provide precise KPIs, actionable insights, and executive-ready reporting tailored to the confectionery supply chain.
+Working on the Awesome Chocolate shipment and sales dashboard gave me the opportunity to combine strong data modeling skills with business insight. The goal? To equip the supply chain and sales teams with clear, timely, and actionable intelligence that helps them optimize performance and increase profitability.
+
+With thoughtfully designed DAX measures and an intuitive data model, this dashboard makes complex logistics and financial data easy to understand, fast to analyze, and simple to act upon.
 
 ***
 
