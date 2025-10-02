@@ -117,6 +117,7 @@ VAR ld = [latest date]
 VAR this_month_sales = [Total Sales Latest Month]
 VAR prev_month_sales = CALCULATE([Total Sales], 'calendar'[Start of Month] = EDATE(ld, -1))
 RETURN DIVIDE(this_month_sales - prev_month_sales, prev_month_sales)
+
 ```
 
 ***
