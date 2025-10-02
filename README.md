@@ -106,7 +106,3 @@ RETURN DIVIDE(this_month_sales - prev_month_sales, prev_month_sales)
 This project is a showcase of practical analytics expertise and a business-driven mindset. The dashboard is ready to impress and deliver real value, standing out for its technical rigor and meaningful insights.
 
 ***
-
-**Transforming raw data into actionable intelligence that powers decision-making and business growth.**
-
----
