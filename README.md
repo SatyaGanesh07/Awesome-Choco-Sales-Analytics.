@@ -58,24 +58,14 @@ These tables are related by shipment date fields for context-aware analysis.
 
 ***
 
-## Dashboard Screenshots
+## Dashboard Images 
 
-*(Replace with your actual screenshots for best effect)*
+![Sales Dashboard Overview](images/dashboard1.jpg)
+*High-level sales and overall performance summary*
 
-![Dashboard Overview](
+![Product Performance Dashboard](images/dashboard-2.jpg)
+*Detailed insight into product-wise sales, profit, and shipment quality*
 
-  
-*Overview of Key Metrics and Trends*
-
-![Sales Trends](
-
-  
-*Month-over-Month Sales and Profit Analysis*
-
-![Shipment Segmentation](
-
-  
-*Shipment Size Distribution and LBS Analysis*
 
 ***
 
