@@ -1,5 +1,3 @@
-Here is a fully formatted README you can use for your project. It highlights your expertise, the advanced DAX calculations, and the business value of your dashboard—structured to impress recruiters and stakeholders.
-
 ***
 
 # 🚢 Shipment & Sales Analytics Dashboard
