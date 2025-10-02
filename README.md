@@ -1,61 +1,116 @@
-# Awesome-Choco-Sales-Analytics.
-Power BI dashboard and dataset for analyzing global chocolate product sales, costs, shipments, and profit KPIs. Includes a fully interactive report, raw data, DAX measures, all documentation, and visuals for actionable business insights across regions, products, and teams.
+Here is a fully formatted README you can use for your project. It highlights your expertise, the advanced DAX calculations, and the business value of your dashboard—structured to impress recruiters and stakeholders.
 
+***
 
+# 🚢 Shipment & Sales Analytics Dashboard
 
-# Awesome Chocolates Power BI Sales Analytics Dashboard
+**Advanced Power BI Solution with Dynamic DAX Calculations**
 
-## Problem Statement
+***
 
-Awesome Chocolates seeks actionable insights from multi-country sales data to optimize business growth, monitor performance, and identify improvement opportunities across geographies, products, and sales teams.
+## Overview
 
-## Objective
+This Power BI dashboard empowers logistics and operations teams with deep insights into shipment performance, sales trends, cost efficiency, and profit optimization. It leverages advanced DAX measures for dynamic analysis, enabling users to track KPIs with precision and instantly surface business-critical trends.
 
-- Develop a Power BI dashboard that delivers intuitive visualizations of core sales KPIs.
-- Enable sales and operations teams to track regional, product-level, and team-based performance.
-- Provide drill-down capabilities for detailed analysis and decision support.
+***
 
-## Methodology
+## Features & Highlights
 
-- Data sourced from multiple countries, products, and salespersons.
-- Data cleaning, transformation, and dimensional modeling in Power BI.
-- DAX measures developed for KPIs and trend analysis.
-- Visualization design with focus on clarity, usability, and interactivity.
+- **Dynamic Month-over-Month Analysis**  
+  Measure growth and changes in shipments, sales, costs, and box counts for every month—aiding proactive business decisions.
 
-## Key Performance Indicators (KPIs)
+- **Profit Intelligence & Target Tracking**  
+  Real-time monitoring of profit margins, benchmarking against targets, and intelligent status flags to highlight achievements or risks.
 
-- **Total Sales**: Overall revenue generated, tracked monthly, quarterly, and yearly.
-- **Total Boxes Sold**: Volume metrics for shipments and demand analysis.
-- **Total Shipments**: Aggregated shipment count and weight, analyzed geographically.
-- **Total Costs**: Direct and indirect costs associated with sales and shipments.
-- **Total Profit**: Net profit calculation, with breakdown by region and product.
-- **Profit %**: Ratio of profit to sales for efficiency tracking.
-- **LBS Count / %**: Weight-based analysis by shipment, useful for logistics.
-- **MoM (Month over Month %)**: Growth or decline in sales and profit, calculated monthly.
-- **YoY (Year over Year %)**: Annual comparison for trend tracking.
+- **Shipment Segmentation**  
+  Analyze shipment size patterns, identify small-load trends, and optimize operations using the LBS % metric.
 
-## Final Deliverables
+- **Fully Parameterized Model**  
+  Advanced DAX logic adapts automatically to the latest available data; no manual intervention required.
 
-- Power BI dashboard (.pbix file)
-- Sample data (.xlsx)
-- High-resolution dashboard screenshots
-- KPIs documentation (docs/kpis.md)
-- Methodology document (docs/methodology.md)
-- DAX measures for calculated metrics (scripts/DAX-Formulas.txt)
+***
 
-## How to Use
+## Core DAX Measures
 
-1. Download the dataset from the `data` folder.
-2. Open the Power BI dashboard in the `dashboard` folder.
-3. Explore core KPIs and filter by region, product, and sales person.
-4. Review documentation and DAX formulas for deeper insight.
+| Measure Name                    | Description                                                         |
+|---------------------------------|---------------------------------------------------------------------|
+| **Total Shipments**             | Total number of shipments                                           |
+| **Total Sales**                 | Aggregate revenue from shipments                                    |
+| **Total Cost**                  | Sum of shipment costs                                              |
+| **Total Profit**                | Net profit: Total Sales minus Total Cost                            |
+| **Total Boxes**                 | Total number of boxes shipped                                       |
+| **LBS Count / LBS %**           | Shipments with fewer than 50 boxes (count & percent)                |
+| **MoM Shipments Change %**      | Month-over-month change in shipment count                           |
+| **MoM Sales Change %**          | Month-over-month sales percentage change                            |
+| **MoM Boxes Change %**          | Month-over-month box count percentage change                        |
+| **MoM Cost Changes %**          | Month-over-month cost percentage change                             |
+| **Profit %**                    | Profit margin (%)                                                   |
+| **Profit Target**               | Target profit margin (default: 60%)                                 |
+| **Profit Target Indicator**     | 2 = Above Target, 1 = Near Target, 0 = Below Target                 |
 
-## Technologies Used
+***
 
-- Power BI Desktop
-- Microsoft Excel
-- DAX for Power BI analytics
+## Business Value
 
-## License
+- **Optimize Efficiency:**  
+  Instantly detect changes in shipments, cost, or margin. Take action before problems grow.
 
-MIT License
+- **Executive-Ready Reporting:**  
+  KPIs are tailored for fast, clear presentation with trend highlights and status indicators.
+
+- **Scalable Design:**  
+  All measures auto-update with new data. Extend or refresh for seamless insights.
+
+***
+
+## Sample DAX Calculations
+
+```DAX
+-- Total Shipments
+Total Shipments = COUNTROWS(shipments)
+
+-- Total Sales (Latest Month)
+Total Sales Latest Month =
+VAR ld = [latest date]
+RETURN CALCULATE([Total Sales], 'calendar'[Start of Month] = ld)
+
+-- Month-over-Month Sales Change %
+latest MoM Sales Change % =
+VAR ld = [latest date]
+VAR this_month_sales = [Total Sales Latest Month]
+VAR prev_month_sales = CALCULATE([Total Sales], 'calendar'[Start of Month] = EDATE(ld, -1))
+RETURN DIVIDE(this_month_sales - prev_month_sales, prev_month_sales)
+```
+
+***
+
+## Model Design Principles
+
+- **Star-Schema Modeling:**  
+  Robust relationships connect shipments and calendar tables for accurate, flexible time intelligence.
+
+- **Readable & Maintainable:**  
+  Measures are clearly named and documented, so others can quickly understand and extend the solution.
+
+- **Performance Focus:**  
+  DAX follows best practices for efficiency and scalability—ideal for real-world deployment.
+
+***
+
+## Getting Started
+
+1. Connect to your shipments and calendar datasets.
+2. Ensure calendar table [Start of Month] is a valid date field matching shipment data.
+3. Refresh your data in Power BI—automatic calculations deliver fresh results instantly.
+
+***
+
+## Final Thoughts
+
+This project is a showcase of practical analytics expertise and a business-driven mindset. The dashboard is ready to impress and deliver real value, standing out for its technical rigor and meaningful insights.
+
+***
+
+**Transforming raw data into actionable intelligence that powers decision-making and business growth.**
+
+---
