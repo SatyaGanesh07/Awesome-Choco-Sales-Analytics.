@@ -141,5 +141,11 @@ I'm excited to bring these skills and this mindset into my next role — driving
 
 ***
 
+## Contact
+
+For any questions or suggestions, please open an issue or contact me via LinkedIn:  
+[Satya Ganesh LinkedIn](https://www.linkedin.com/in/satya-ganesh-5a89b2283/)
+
+
 **Delivering transformative analytics that ensure every chocolate shipment drives profitability and growth.**
 
